@@ -1,0 +1,16 @@
+@import url('https://coolors.co/8e9b90-93c0a4-b6c4a2-d4cdab');
+
+:root {
+    --primary-color: #8e9b90;
+    --secondary-color: #93C0A4;
+    --accent1-color: #B6C4A2;
+    --accent2-color: #D4CDAB;
+
+    --heading-font: '', serif;
+    --paragraph-font: '', serif;
+
+    --nav-background-color: #8e9b90; 
+    --nav-link-color: #93C0A4;
+    --nav-hover-link-color: #B6C4A2;
+    --nav-gover-background-color: #D4CDAB;
+}
