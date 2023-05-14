@@ -88,3 +88,12 @@ p {
     color: #333;
 }
 
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
