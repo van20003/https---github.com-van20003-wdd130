@@ -1,0 +1,36 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+fieldset {
+    margin-bottom: auto;
+}
+
+
+label {
+display: block;
+}
+
+
+textarea {
+width: auto;
+resize: vertical;
+}
+
+
+button[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    color: blue;
+}
