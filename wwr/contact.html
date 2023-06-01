@@ -48,17 +48,59 @@ the target audience, branding information, and a style guide for the course webs
         <figure>
           <img src="images/employee1.jpg" alt="Employee 1">
           <figcaption>Mariah Vang - Trip Scheduler</figcaption>
+          <p>Email: MariahfakeEmail@gmail.com</p>
         </figure>
         <figure>
           <img src="images/employee2.jpg" alt="Employee 2">
           <figcaption>David Vang - Rafting Guide</figcaption>
+          <p>Email: DavidfakeEmail@gmail.com</p>
         </figure>
         <figure>
           <img src="images/employee3.jpg" alt="Employee 3">
           <figcaption>Sonya Vang - Information Specialist</figcaption>
+          <p>Email: SonyafakeEmail@gmail.com</p>
         </figure>
       </div>
 
+      <h3>Please email us any questions!</h3>
+
+      <form action="#" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="purpose">Purpose:</label>
+          <div>
+            <input type="radio" id="general" name="purpose" value="general">
+            <label for="general">General Inquiry</label>
+          </div>
+          <div>
+            <input type="radio" id="reservation" name="purpose" value="reservation">
+            <label for="reservation">Reservation Question</label>
+          </div>
+          <div>
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="suggestion">Website Suggestion</label>
+          </div>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div>
+          <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+          <label for="newsletter">Please subscribe also!</label>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+      
       <div class="contact-form">
         <h3>Get in touch with us!</h3>
         <form>
