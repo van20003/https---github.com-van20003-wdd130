@@ -1,13 +1,9 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-header {
-    color: #333;
-}
-
 .hero img {
     display: block;
-    width: 550px;
+    width: 850px;
     height: auto;
 }
 
@@ -21,17 +17,17 @@ header {
 }
 
 .logo img {
-	margin: 0 0.25rem 0 1rem;
+	margin: 3px;
 	width: 550px;
-	height: fit-content;
+	height: auto;
 	text-align: center 
 }
 
 .navigation {
+	margin: 5px;
 	display: flex;
 	list-style: none;
 	text-align: center 
-	
 }
 
 .navigation li {
@@ -46,17 +42,6 @@ header {
 	text-decoration: none;
 	text-align: center 
 }
-
-:root {
-
-    --primary-color: steelblue;
-    --second-color: #eee;
-    --third-color: #333;
-    --font-color: rgb(73, 50, 202);
-	text-align: center 
-}
-
-
 
 * {
     margin: 0;
