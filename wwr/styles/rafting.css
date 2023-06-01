@@ -10,9 +10,8 @@ nav {
 }
 
 .hero img {
-    display: flex;
+    display: auto;
     width: 850px;
-    height: auto;
 }
 
 header {
